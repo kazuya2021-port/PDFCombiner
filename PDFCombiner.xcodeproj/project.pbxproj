@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82F3065722A9FFD500E618E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82F3065622A9FFD500E618E3 /* AppDelegate.m */; };
+		82F3065922A9FFD500E618E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82F3065822A9FFD500E618E3 /* Assets.xcassets */; };
+		82F3065C22A9FFD500E618E3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82F3065A22A9FFD500E618E3 /* MainMenu.xib */; };
+		82F3065F22A9FFD500E618E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82F3065E22A9FFD500E618E3 /* main.m */; };
+		82F3066822AA27DD00E618E3 /* TableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82F3066722AA27DD00E618E3 /* TableController.m */; };
+		82F3066C22AA2A2C00E618E3 /* KZLibs.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 82F3066B22AA2A2C00E618E3 /* KZLibs.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		82F3066F22AA2E0200E618E3 /* KZLibs.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 82F3066B22AA2A2C00E618E3 /* KZLibs.dylib */; };
+		82F3067322AA58BB00E618E3 /* ControlAcrobat.m in Sources */ = {isa = PBXBuildFile; fileRef = 82F3067222AA58BB00E618E3 /* ControlAcrobat.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		82F3066D22AA2A2C00E618E3 /* Embed Libraries */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				82F3066C22AA2A2C00E618E3 /* KZLibs.dylib in Embed Libraries */,
+			);
+			name = "Embed Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		82F3065222A9FFD500E618E3 /* PDFCombiner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDFCombiner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82F3065522A9FFD500E618E3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		82F3065622A9FFD500E618E3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		82F3065822A9FFD500E618E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82F3065B22A9FFD500E618E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		82F3065D22A9FFD500E618E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82F3065E22A9FFD500E618E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		82F3066022A9FFD500E618E3 /* PDFCombiner.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PDFCombiner.entitlements; sourceTree = "<group>"; };
+		82F3066622AA27DD00E618E3 /* TableController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableController.h; sourceTree = "<group>"; };
+		82F3066722AA27DD00E618E3 /* TableController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableController.m; sourceTree = "<group>"; };
+		82F3066A22AA296C00E618E3 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		82F3066B22AA2A2C00E618E3 /* KZLibs.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = KZLibs.dylib; sourceTree = "<group>"; };
+		82F3066E22AA2A6100E618E3 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		82F3067122AA58BB00E618E3 /* ControlAcrobat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ControlAcrobat.h; sourceTree = "<group>"; };
+		82F3067222AA58BB00E618E3 /* ControlAcrobat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ControlAcrobat.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82F3064F22A9FFD500E618E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82F3066F22AA2E0200E618E3 /* KZLibs.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82F3064922A9FFD400E618E3 = {
+			isa = PBXGroup;
+			children = (
+				82F3066E22AA2A6100E618E3 /* PrefixHeader.pch */,
+				82F3066B22AA2A2C00E618E3 /* KZLibs.dylib */,
+				82F3065422A9FFD500E618E3 /* PDFCombiner */,
+				82F3065322A9FFD500E618E3 /* Products */,
+				82F3066922AA296C00E618E3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		82F3065322A9FFD500E618E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82F3065222A9FFD500E618E3 /* PDFCombiner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82F3065422A9FFD500E618E3 /* PDFCombiner */ = {
+			isa = PBXGroup;
+			children = (
+				82F3067122AA58BB00E618E3 /* ControlAcrobat.h */,
+				82F3067222AA58BB00E618E3 /* ControlAcrobat.m */,
+				82F3065522A9FFD500E618E3 /* AppDelegate.h */,
+				82F3065622A9FFD500E618E3 /* AppDelegate.m */,
+				82F3065822A9FFD500E618E3 /* Assets.xcassets */,
+				82F3065A22A9FFD500E618E3 /* MainMenu.xib */,
+				82F3065D22A9FFD500E618E3 /* Info.plist */,
+				82F3065E22A9FFD500E618E3 /* main.m */,
+				82F3066022A9FFD500E618E3 /* PDFCombiner.entitlements */,
+				82F3066622AA27DD00E618E3 /* TableController.h */,
+				82F3066722AA27DD00E618E3 /* TableController.m */,
+			);
+			path = PDFCombiner;
+			sourceTree = "<group>";
+		};
+		82F3066922AA296C00E618E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82F3066A22AA296C00E618E3 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82F3065122A9FFD500E618E3 /* PDFCombiner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82F3066322A9FFD500E618E3 /* Build configuration list for PBXNativeTarget "PDFCombiner" */;
+			buildPhases = (
+				82F3064E22A9FFD500E618E3 /* Sources */,
+				82F3064F22A9FFD500E618E3 /* Frameworks */,
+				82F3065022A9FFD500E618E3 /* Resources */,
+				82F3066D22AA2A2C00E618E3 /* Embed Libraries */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PDFCombiner;
+			productName = PDFCombiner;
+			productReference = 82F3065222A9FFD500E618E3 /* PDFCombiner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82F3064A22A9FFD400E618E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = uchiyama_Macmini;
+				TargetAttributes = {
+					82F3065122A9FFD500E618E3 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 82F3064D22A9FFD400E618E3 /* Build configuration list for PBXProject "PDFCombiner" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82F3064922A9FFD400E618E3;
+			productRefGroup = 82F3065322A9FFD500E618E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82F3065122A9FFD500E618E3 /* PDFCombiner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82F3065022A9FFD500E618E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82F3065922A9FFD500E618E3 /* Assets.xcassets in Resources */,
+				82F3065C22A9FFD500E618E3 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82F3064E22A9FFD500E618E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82F3067322AA58BB00E618E3 /* ControlAcrobat.m in Sources */,
+				82F3066822AA27DD00E618E3 /* TableController.m in Sources */,
+				82F3065F22A9FFD500E618E3 /* main.m in Sources */,
+				82F3065722A9FFD500E618E3 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		82F3065A22A9FFD500E618E3 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82F3065B22A9FFD500E618E3 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82F3066122A9FFD500E618E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.10;
+			};
+			name = Debug;
+		};
+		82F3066222A9FFD500E618E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx10.10;
+			};
+			name = Release;
+		};
+		82F3066422A9FFD500E618E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 247S3F628J;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/uchiyama_macmini/Documents/PDFCombiner/PrefixHeader.pch;
+				HEADER_SEARCH_PATHS = /Volumes/DataBackUp/KZLibs/KZLibs;
+				INFOPLIST_FILE = PDFCombiner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.kazuya.dev.PDFCombiner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.12;
+			};
+			name = Debug;
+		};
+		82F3066522A9FFD500E618E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 247S3F628J;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/uchiyama_macmini/Documents/PDFCombiner/PrefixHeader.pch;
+				HEADER_SEARCH_PATHS = /Volumes/DataBackUp/KZLibs/KZLibs;
+				INFOPLIST_FILE = PDFCombiner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.kazuya.dev.PDFCombiner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.12;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82F3064D22A9FFD400E618E3 /* Build configuration list for PBXProject "PDFCombiner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82F3066122A9FFD500E618E3 /* Debug */,
+				82F3066222A9FFD500E618E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82F3066322A9FFD500E618E3 /* Build configuration list for PBXNativeTarget "PDFCombiner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82F3066422A9FFD500E618E3 /* Debug */,
+				82F3066522A9FFD500E618E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82F3064A22A9FFD400E618E3 /* Project object */;
+}
